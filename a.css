@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 150px;
+}
+
+.logo img {
+    width: 100px;
+    margin: -24px 0px;
+    filter: invert();
+}
+
+.border {
+    /* border: 2px solid transparent; */
+    padding: 10px;
+}
+
+.border:hover {
+    outline: 1.5px solid white;
+    border-radius: 5px;
+}
+
+.add-1 {
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+
+.add-2 {
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cornsilk;
+    width: 620px;
+    height: 40px;
+    outline: none;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    background-color: rgb(182, 104, 13);
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.nav-search:hover {
+    outline: 3px solid rgb(203, 131, 14);
+    border-radius: 5px;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 12px;
+    padding: 10px;
+}
+
+.panel-ops p:hover {
+    outline: 1px solid white;
+    border-radius: 5px;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Shreyansh/BAU/Unrexc/D70978891_INWLD_BAU_Unrec_Uber_PC_Hero_3000x1200._CB594707876_.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.box-img {
+    height: 290px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.box-content {
+    padding: 10px;
+    /* display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; */
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.shop {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.shop:hover {
+    color: rgb(0, 8, 255);
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: #dddddd;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: flex;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border: 0.5px solid white;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+}
